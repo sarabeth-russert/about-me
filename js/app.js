@@ -126,7 +126,7 @@ function doYouWantToBuildASnowman() {
 }
 
 function goodbye(){
-  alert('goodbye ' + visitor + '! I hope you enjoyed the game and getting to know me better.');
+  alert('Goodbye ' + visitor + '! I hope you enjoyed the game and getting to know me better.');
 }
 
 let visitor = visitorName();
