@@ -9,6 +9,7 @@ An "about me" webpage that explores the concept of *user stories* and relies on 
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * Any Links you used as reference
+* https://www.w3schools.com/css/css3_images.asp
 
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here
