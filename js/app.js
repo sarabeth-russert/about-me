@@ -181,7 +181,7 @@ function main() {
         }
       }
       if (i === 5){
-        alert('I am sorry you are out of guesses.');
+        alert('I am sorry you are out of guesses. The possible correct answers were pizza, burgers, pasta, salad, protien bars, cookies, and cake.');
         break;
       }
       alert('You have ' + (6 - (i +1)) + ' guess(es) left.');
