@@ -5,6 +5,7 @@
 An "about me" webpage that explores the concept of *user stories* and relies on daily refactoring of my code to learn about the process of development from idea to deployment.
 
 ### Author: Sara Russert
+supplimental work Matt R., driving Sara R. Navagating.
 
 ### Links and Resources
 * https://www.w3schools.com/css/css3_images.asp
