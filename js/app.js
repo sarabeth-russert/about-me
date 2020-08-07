@@ -169,19 +169,24 @@ function main() {
   function guessingGame7() {
     let gameCount = 0;
     let favoriteFoodsArray = ['pizza', 'burgers', 'pasta', 'salad', 'protien bars', 'cookies', 'cake', 'donuts', 'milk shakes'];
-    let userGuess = prompt('I have been vegan for 22 years and I love food. Can you guess some of my favorite foods? You have 6 tries to get some!');
+    let userGuess = prompt('I have been vegan for 22 years and I love food. Can you guess one of my favorite foods? You have 6 tries to get one!');
     console.log(visitor + ' guessed ' + userGuess);
+    let gameEnds = false;
 
     for (let i = 0; i < 6; i++){
       for (let j = 0; j < favoriteFoodsArray.length; j++) {
         if(favoriteFoodsArray[j] === userGuess) {
-          alert('Wow! You got one right!');
+          alert('Wow! You got one right! The possible correct answers were pizza, burgers, pasta, salad, protien bars, cookies, and cake.');
           gameCount = gameCount + 1;
+          gameEnds = true;
           break;
         }
       }
       if (i === 5){
         alert('I am sorry you are out of guesses. The possible correct answers were pizza, burgers, pasta, salad, protien bars, cookies, and cake.');
+        break;
+      }
+      if (gameEnds === true) {
         break;
       }
       alert('You have ' + (6 - (i +1)) + ' guess(es) left.');
@@ -201,7 +206,7 @@ function main() {
     let g5 = guessingGame5();
     let g6 = guessingGame6();
     let g7 = guessingGame7();
-    alert('You had a total of ' + (g1 + g2 + g3 + g4 + g5 + g6 +g7) + ' correct answers out of 12 possible.');
+    alert('You had a total of ' + (g1 + g2 + g3 + g4 + g5 + g6 +g7) + ' correct answers out of 7 possible.');
   }
 
   function goodbye(){
