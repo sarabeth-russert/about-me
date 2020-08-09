@@ -1,34 +1,91 @@
+header {
+  margin: 100px 0px 100px 0px;
+}
 h1 {
-  padding: 50px;
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
+  background-color: white;
+  border: 5px solid black;
+  border-top-left-radius: 25% 50%;
+  border-bottom-left-radius: 25% 50%;
+  border-top-right-radius: 25% 50%;
+  border-bottom-right-radius: 25% 50%;
+  margin: 0px auto 0px auto;
+  width: 25%;
+  padding: 50px;
 }
-img {
-  border-radius: 50%;
-  height: 150px;
 
+#background {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#profile {
+  float: left;
+  position: absolute;
+  border-radius: 50%;
+  height: 225px;
+  border: 5px dotted black;
+}
+
+body {
+  margin-left: 7%;
+  margin-right: 7%;
 }
 div {
-  margin: 50px 10px;
+  margin-bottom: 50px;
 }
-p {
-  margin-bottom: 10px;
+
+#maintextbox {
+  margin-top: 20px;
+}
+
+.textbody {
+  background-color: white;
+  margin-bottom: 50px;
   font-size: large;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+p:nth-child(1), p:nth-child(2), p:nth-child(3) {
+  margin-left: 22%;
 }
 
 ol {
-  margin: 50px 10px;
   list-style-type: decimal;
   list-style-position: inside;
+  float: left;
+  width: 45%
 }
 
 ul {
   list-style-type: circle;
-  margin: 50px 10px;
+  list-style-position: inside;
+  float: right;
+  width: 45%;
 }
 
 .list {
+  background-color: white;
+  margin-bottom: 20px;
+  font-size: large;
+  border: 5px dotted black;
+  padding: 10px;
+}
+
+.list h2 {
   font-size: x-large;
-  font-weight: bold;
+}
+
+#credit {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 500px;
 }
