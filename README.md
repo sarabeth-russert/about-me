@@ -10,7 +10,8 @@ supplimental work Matt R., driving Sara R. Navagating.
 ### Links and Resources
 * https://www.w3schools.com/css/css3_images.asp
 * https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type
+* background image https://upload.wikimedia.org/wikipedia/commons/7/71/Walt_Disney_and_his_cartoon_creation_%22Mickey_Mouse%22_-_National_Board_of_Review_Magazine.jpg
+* ellispe border learned from: https://stackoverflow.com/questions/40018961/can-i-make-an-ellipse-using-the-css-border-radius-property
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Tried to push myself out of my miniamilst comfort zone and worked on my css for several hours on saturday... It isn't perfect but it was a great learning opportunity and it was kinda fun if challenging.
