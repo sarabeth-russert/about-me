@@ -15,3 +15,6 @@ supplimental work Matt R., driving Sara R. Navagating.
 
 ### Reflections and Comments
 * Tried to push myself out of my miniamilst comfort zone and worked on my css for several hours on saturday... It isn't perfect but it was a great learning opportunity and it was kinda fun if challenging.
+
+## Adding a note about how awesome 201 is
+- it's awesome!
